@@ -3,6 +3,11 @@
 ## Motivation
 When a client makes an HTTP request to your API, they'll often include several HTTP headers. Before you can process the request, you'll need to parse these headers to determine their contents. This is often done in the context of user authentication and API token creation.
 
+## features :
+ * using req.header to get user language
+ * using req.header to get user software
+ * using req.ip to get user ip
+
 ## Goal
 The goal of nodejs-request-header-parser is to
 
