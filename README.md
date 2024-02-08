@@ -1,29 +1,32 @@
-# requestHeaderParser
+# nodejs-request-header-parser
 
 ## Motivation
-It can be used with any shopping project needing JSON products. This project incorporates filtering capabilities using django-filter. Django-filter is a generic, reusable application to alleviate writing some of the more mundane bits of view code.
+When a client makes an HTTP request to your API, they'll often include several HTTP headers. Before you can process the request, you'll need to parse these headers to determine their contents. This is often done in the context of user authentication and API token creation.
 
-### Goal
-The goal with drf-ecommerce-api is to provide a client user with e-commerce JSON data and allow users to filter based on a model’s fields, displaying the form to let them do this.
+## Goal
+The goal of nodejs-request-header-parser is to
 
-⚙️ Installation
-Clone the repo by running git clone git@github.com:backendkolawole/Request-Header-Parser-Microservice.git in terminal
+## ⚙️ Installation
 
-run npm install
+- Clone the repo 
 
-run npm start
+  `git clone git@github.com:backendkolawole/Request-Header-Parser-Microservice.git` 
+
+- Install dependencies
+
+  `npm install`
+
+- run
+
+`npm start`
 
 ## Other usage examples
 
-A request to /api/whoami should return a JSON object with your IP address in the ipaddress key.
+**GET /api/whoami** 
 
-A request to /api/whoami should return a JSON object with your preferred language in the language key.
+Should return a JSON object with your IP address in the ipaddress key, your preferred language in the language key and your software in the software key.
 
-A request to /api/whoami should return a JSON object with your software in the software key.
-
-## Closing and resources 
 ## Contact
-## Contributing
 
 
 
