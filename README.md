@@ -19,7 +19,7 @@ When a client makes an HTTP request to your API, they'll often include several H
    
 - Clone this repository
 
-  `git@github.com:backendkolawole/nodejs-request-header-parser.git`
+  `git clone git@github.com:backendkolawole/nodejs-request-header-parser.git`
 
 - Change the current directory
 
